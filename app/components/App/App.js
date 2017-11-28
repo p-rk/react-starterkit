@@ -1,13 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { FormInputs } from '../Forms';
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <p>Hello world !</p>
-      </div>
-    );
-  }
-}
+const App = () => (
+  <div>
+    <FormInputs />
+  </div>
+);
 
 export default App;
