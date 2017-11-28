@@ -1,9 +1,10 @@
 import React from 'react';
-import { FormInputs } from '../Forms';
+import { FormInputs, CheckBox } from '../Forms';
 
 const App = () => (
   <div>
     <FormInputs />
+    <CheckBox />
   </div>
 );
 
