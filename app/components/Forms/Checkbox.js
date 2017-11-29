@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class CheckBox extends Component {
   constructor(props) {
     super(props);
-    this.state = { option: '' };
+    this.state = { option: 'veggies' };
     this.onChange = this.onChange.bind(this);
   }
   onChange(e) {
