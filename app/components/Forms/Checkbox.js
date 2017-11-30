@@ -14,6 +14,7 @@ class CheckBox extends Component {
       <select value={this.state.option} onChange={this.onChange}>
         <option value="fruits">Fruits</option>
         <option value="veggies">Veggies</option>
+        <option value="chicken">Chicken</option>
       </select>
     );
   }
